@@ -35,7 +35,6 @@ pdf-engine = "lualatex"
 metadata-file = "metadata.yml"
 
 [output.pandoc.profile.pdf.variables]
-# You can get these fonts here: https://fonts.google.com/selection?query=noto+color+
 mainfont = "CoreSansA45.ttf"
 mainfontoptions = [
   "BoldFont=CoreSansA65.ttf",
@@ -48,6 +47,7 @@ sansfontoptions = [
   "ItalicFont=CoreSansA45It.ttf",
   "BoldItalicFont=CoreSansA65It.ttf",
 ]
+# You can get these fonts here: https://fonts.google.com/selection?query=noto+color+
 monofont = "Noto Sans Mono"
 mainfontfallback = ["Noto Color Emoji:mode=harf"]
 sansfontfallback = ["Noto Color Emoji:mode=harf"]
@@ -76,7 +76,6 @@ metadata-file = "metadata.yml"
 pdf-engine = "lualatex"
 
 [output.pandoc.profile.paperback.variables]
-# You can get these fonts here: https://fonts.google.com/selection?query=noto+color+
 mainfont = "CoreSansA45.ttf"
 mainfontoptions = [
   "BoldFont=CoreSansA65.ttf",
@@ -89,6 +88,7 @@ sansfontoptions = [
   "ItalicFont=CoreSansA45It.ttf",
   "BoldItalicFont=CoreSansA65It.ttf",
 ]
+# You can get these fonts here: https://fonts.google.com/selection?query=noto+color+
 monofont = "Noto Sans Mono"
 mainfontfallback = ["Noto Color Emoji:mode=harf"]
 sansfontfallback = ["Noto Color Emoji:mode=harf"]
@@ -119,7 +119,6 @@ standalone = true
 metadata-file = "metadata.yml"
 
 [output.pandoc.profile.html.variables]
-# You can get these fonts here: https://fonts.google.com/selection?query=noto+color+
 mainfont = "CoreSansA45.ttf"
 mainfontoptions = [
   "BoldFont=CoreSansA65.ttf",
@@ -132,6 +131,7 @@ sansfontoptions = [
   "ItalicFont=CoreSansA45It.ttf",
   "BoldItalicFont=CoreSansA65It.ttf",
 ]
+# You can get these fonts here: https://fonts.google.com/selection?query=noto+color+
 monofont = "Noto Sans Mono"
 mainfontfallback = ["Noto Color Emoji:mode=harf"]
 sansfontfallback = ["Noto Color Emoji:mode=harf"]
